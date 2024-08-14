@@ -178,7 +178,97 @@ var plants = [
 var data = plants[4].list[1];
 alert(data);
 
+//     }
+// }
+// var data = JSON.parse(JSON.stringify(collection));
 
+// function updating(id , prop, value){
+//     if ( value === ""){
+//         delete collection[id][prop];
+//     }
+//     else if (prop === "tracks"){
+//         collection[id][prop] = collection[id][prop] || [];
+//         collection[id][prop].push(value);
+//     }
+//     else{
+//         collection[id][prop] = value;
+//     }
+//     return collection;
+// }
+
+// console.log(updating("4" , "artist", "zaheer"))
+
+
+// var myarr = [];
+// // var i = 0;
+// // while (i < 5){
+// //     myarr.push(i);
+// //     i++
+// // }
+// // console.log(myarr);
+// for (var i = 0; i<=20;i+=2) {
+//     myarr.push(i);
+// }
+// console.log(myarr);
+
+
+// var myarraay = [2,4,6,8,10];
+// var total = 0;
+// for (var i = 0;i<myarraay.length;i++){
+//     total+=myarraay[i];
+// }
+// console.log(total);
+
+// nested for
+// function multi(arr){
+//     var product = 1;
+//     for(var i =0;i< arr.length;i++){
+//         for(var j = 0;j<arr[i].length;j++){
+//             product*=arr[i][j];
+//         }
+//     }
+//     return product;
+// }
+// var product = multi([[1,2],[3,4],[5,6,7,8]]);
+// console.log(product);
+
+// do while 
+// var arr = [];
+// var i = 1;
+
+// do{
+//     arr.push(i)
+//     i++
+// }while (i<5)
+// console.log(i,arr)
+
+// var contacts = [
+//     {"firstName":"Umar",
+//         "lastName" :"uddin",
+//         "Number":12,
+//         "skills":[
+//             "js","html","react"
+//         ]
+//     },{"firstName":"muneeb",
+//         "lastName" :"",
+//         "Number":12,
+//         "skills":[
+//             "js","html","react"
+//         ]
+//     },{"firstName":"pranjal",
+//         "lastName" :"",
+//         "Number":12,
+//         "skills":[
+//             "js","html","react"
+//         ]
+//     },{"firstName":"zubiya",
+//         "lastName" :"",
+//         "Number":12,
+//         "skills":[
+//             "js","html","react"
+//         ]
+//     }
+// ]
 
 
 
